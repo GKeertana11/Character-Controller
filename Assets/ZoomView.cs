@@ -7,10 +7,12 @@ public class ZoomView : MonoBehaviour
     public Camera cam;
     public float zoomView;
     public float defaultView;
+
     // Start is called before the first frame update
     void Start()
     {
         cam = GetComponent<Camera>();
+        
     }
 
     // Update is called once per frame
@@ -24,6 +26,7 @@ public class ZoomView : MonoBehaviour
         else
         {
             cam.fieldOfView = defaultView;
+            
         }
 
 
