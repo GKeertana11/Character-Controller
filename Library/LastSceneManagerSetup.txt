@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Terrain.unity
+- path: Assets/Scenes/BlendTree.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

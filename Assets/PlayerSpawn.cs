@@ -9,6 +9,7 @@ public class PlayerSpawn : MonoBehaviour
     public bool isRespawn = false;
     public bool respawnToggle = false;
     int k;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +39,11 @@ public class PlayerSpawn : MonoBehaviour
               k =RandomSpawn();
         }
         this.transform.position = spawnPositions[k].transform.position;
+
+        if(Input.GetKeyDown(KeyCode.RightArrow))
+        {
+
+        }
 
     }
     public int RandomSpawn()
